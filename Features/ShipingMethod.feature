@@ -11,7 +11,7 @@ Feature: CK - Shiping methods
         And I fill up client info in check out page
         And I click payment button in check out page
         And I click the back button in my browser
-        And I set shiping method to <ShipingMethod> in check out page
+        And I set shiping method to <ShipingMethod2> in check out page
         Then I should see delivery address fileds are visible in checkout page
 
     Examples:
